@@ -1,1 +1,1 @@
-# blue-z
+# games for blue z (loadstring)
