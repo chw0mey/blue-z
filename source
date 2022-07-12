@@ -121,6 +121,17 @@ local TextButton_35 = Instance.new("TextButton")
 local UICorner_53 = Instance.new("UICorner")
 local nam = Instance.new("TextBox")
 local quan = Instance.new("TextBox")
+local creds = Instance.new("Frame")
+local chwome = Instance.new("TextLabel")
+local lisp = Instance.new("TextLabel")
+local nearepick = Instance.new("TextLabel")
+local johiro = Instance.new("TextLabel")
+local Frame_12 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
 local keyframe = Instance.new("Frame")
 local TextBox = Instance.new("TextBox")
 local UICorner_54 = Instance.new("UICorner")
@@ -128,17 +139,17 @@ local check = Instance.new("TextButton")
 local UICorner_55 = Instance.new("UICorner")
 local discord = Instance.new("TextButton")
 local UICorner_56 = Instance.new("UICorner")
-local Frame_12 = Instance.new("Frame")
+local Frame_13 = Instance.new("Frame")
 local UICorner_57 = Instance.new("UICorner")
 local credits = Instance.new("TextButton")
 local UICorner_58 = Instance.new("UICorner")
-local chwome = Instance.new("TextBox")
-local nearepick = Instance.new("TextBox")
+local chwome_2 = Instance.new("TextBox")
+local nearepick_2 = Instance.new("TextBox")
 local TextButton_36 = Instance.new("TextButton")
 local UICorner_59 = Instance.new("UICorner")
 local lispuwu = Instance.new("TextBox")
 local notneededloadingscreen = Instance.new("Frame")
-local Frame_13 = Instance.new("Frame")
+local Frame_14 = Instance.new("Frame")
 local UICorner_60 = Instance.new("UICorner")
 local half = Instance.new("Frame")
 local UICorner_61 = Instance.new("UICorner")
@@ -146,11 +157,11 @@ local quarter = Instance.new("Frame")
 local UICorner_62 = Instance.new("UICorner")
 local toquarters = Instance.new("Frame")
 local UICorner_63 = Instance.new("UICorner")
-local Frame_14 = Instance.new("Frame")
+local Frame_15 = Instance.new("Frame")
 local UICorner_64 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
 local percent = Instance.new("TextLabel")
-local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
 local full = Instance.new("Frame")
 local UICorner_65 = Instance.new("UICorner")
 
@@ -163,7 +174,6 @@ Frame.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.331727058, 0, 0.318036795, 0)
 Frame.Size = UDim2.new(0, 450, 0, 300)
-Frame.Visible = false
 
 OutLine.Name = "OutLine"
 OutLine.Parent = Frame
@@ -307,7 +317,6 @@ PlayersTab.BorderSizePixel = 0
 PlayersTab.Position = UDim2.new(0.237777784, 0, 0.113333337, 0)
 PlayersTab.Size = UDim2.new(0, 343, 0, 266)
 PlayersTab.Visible = false
-PlayersTab.CanvasPosition = Vector2.new(0, 84)
 PlayersTab.CanvasSize = UDim2.new(0, 0, 1, 50)
 PlayersTab.ScrollBarThickness = 8
 
@@ -877,6 +886,7 @@ Frame_11.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
 Frame_11.BorderSizePixel = 0
 Frame_11.Position = UDim2.new(0.233333334, 0, 0.116666667, 0)
 Frame_11.Size = UDim2.new(0, 345, 0, 265)
+Frame_11.Visible = false
 
 TextButton_34.Parent = Frame_11
 TextButton_34.BackgroundColor3 = Color3.fromRGB(9, 149, 144)
@@ -930,12 +940,138 @@ quan.TextScaled = true
 quan.TextSize = 14.000
 quan.TextWrapped = true
 
+creds.Name = "creds"
+creds.Parent = Frame
+creds.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+creds.BorderSizePixel = 0
+creds.Position = UDim2.new(0.233333334, 0, 0.116666667, 0)
+creds.Size = UDim2.new(0, 345, 0, 265)
+creds.Visible = false
+
+chwome.Name = "chwome"
+chwome.Parent = creds
+chwome.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+chwome.BorderSizePixel = 0
+chwome.Size = UDim2.new(0, 345, 0, 64)
+chwome.Font = Enum.Font.FredokaOne
+chwome.Text = "chwomey#2561 - Me! Making the UI, fixing every error, and updating the script"
+chwome.TextColor3 = Color3.fromRGB(43, 75, 255)
+chwome.TextScaled = true
+chwome.TextSize = 14.000
+chwome.TextWrapped = true
+
+lisp.Name = "lisp"
+lisp.Parent = creds
+lisp.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+lisp.BorderSizePixel = 0
+lisp.Position = UDim2.new(0, 0, 0.241509438, 0)
+lisp.Size = UDim2.new(0, 345, 0, 65)
+lisp.Font = Enum.Font.FredokaOne
+lisp.Text = "i have a lisp#8735 - Paint Tool, Being there when i need somebody to talk to, and not knowing lua to well"
+lisp.TextColor3 = Color3.fromRGB(43, 75, 255)
+lisp.TextScaled = true
+lisp.TextSize = 30.000
+lisp.TextWrapped = true
+
+nearepick.Name = "nearepick"
+nearepick.Parent = creds
+nearepick.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+nearepick.BorderSizePixel = 0
+nearepick.Position = UDim2.new(0.00289855083, 0, 0.486792684, 0)
+nearepick.Size = UDim2.new(0, 345, 0, 71)
+nearepick.Font = Enum.Font.FredokaOne
+nearepick.Text = "nearepick#1800 - Helping with errors, Suggestions, and Gambling while i work on the script"
+nearepick.TextColor3 = Color3.fromRGB(43, 75, 255)
+nearepick.TextScaled = true
+nearepick.TextSize = 30.000
+nearepick.TextWrapped = true
+
+johiro.Name = "johiro"
+johiro.Parent = creds
+johiro.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+johiro.BorderSizePixel = 0
+johiro.Position = UDim2.new(0.00289855083, 0, 0.758490562, 0)
+johiro.Size = UDim2.new(0, 345, 0, 64)
+johiro.Font = Enum.Font.FredokaOne
+johiro.Text = "Johiro#6506 - Spawn Items Scripts (thats all)"
+johiro.TextColor3 = Color3.fromRGB(43, 75, 255)
+johiro.TextScaled = true
+johiro.TextSize = 14.000
+johiro.TextWrapped = true
+
+Frame_12.Parent = Frame
+Frame_12.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0.233333334, 0, 0.116666667, 0)
+Frame_12.Size = UDim2.new(0, 345, 0, 265)
+
+TextLabel_5.Parent = Frame_12
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.207826123, 0, 0.184591264, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 30)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "Changelog:"
+TextLabel_5.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Frame_12
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.207826063, 0, -0.000314474106, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.FredokaOne
+TextLabel_6.Text = "Welcome!"
+TextLabel_6.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Frame_12
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(-0.000869529846, 0, 0.297798693, 0)
+TextLabel_7.Size = UDim2.new(0, 180, 0, 24)
+TextLabel_7.Font = Enum.Font.FredokaOne
+TextLabel_7.Text = "- Fixed Spawn Items"
+TextLabel_7.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+TextLabel_8.Parent = Frame_12
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(-0.000869529846, 0, 0.395911902, 0)
+TextLabel_8.Size = UDim2.new(0, 180, 0, 24)
+TextLabel_8.Font = Enum.Font.FredokaOne
+TextLabel_8.Text = "- Added Credits Screen"
+TextLabel_8.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = Frame_12
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(-0.000869529846, 0, 0.475157201, 0)
+TextLabel_9.Size = UDim2.new(0, 227, 0, 21)
+TextLabel_9.Font = Enum.Font.FredokaOne
+TextLabel_9.Text = "- Starting To Finish The Script"
+TextLabel_9.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
 keyframe.Name = "keyframe"
 keyframe.Parent = ScreenGui
 keyframe.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
 keyframe.BorderSizePixel = 0
 keyframe.Position = UDim2.new(0.457197398, 0, 0.382220179, 0)
 keyframe.Size = UDim2.new(0, 165, 0, 134)
+keyframe.Visible = false
 
 TextBox.Parent = keyframe
 TextBox.BackgroundColor3 = Color3.fromRGB(46, 154, 255)
@@ -979,13 +1115,13 @@ discord.TextWrapped = true
 
 UICorner_56.Parent = discord
 
-Frame_12.Parent = keyframe
-Frame_12.BackgroundColor3 = Color3.fromRGB(129, 39, 255)
-Frame_12.Position = UDim2.new(-0.0493208468, 0, -0.0594127141, 0)
-Frame_12.Size = UDim2.new(0, 181, 0, 148)
-Frame_12.ZIndex = 0
+Frame_13.Parent = keyframe
+Frame_13.BackgroundColor3 = Color3.fromRGB(129, 39, 255)
+Frame_13.Position = UDim2.new(-0.0493208468, 0, -0.0594127141, 0)
+Frame_13.Size = UDim2.new(0, 181, 0, 148)
+Frame_13.ZIndex = 0
 
-UICorner_57.Parent = Frame_12
+UICorner_57.Parent = Frame_13
 
 credits.Name = "credits"
 credits.Parent = keyframe
@@ -1001,37 +1137,37 @@ credits.TextWrapped = true
 
 UICorner_58.Parent = credits
 
-chwome.Name = "chwome"
-chwome.Parent = keyframe
-chwome.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
-chwome.BorderSizePixel = 0
-chwome.Position = UDim2.new(0.0484848469, 0, 0.0522388071, 0)
-chwome.Size = UDim2.new(0, 148, 0, 29)
-chwome.Visible = false
-chwome.ClearTextOnFocus = false
-chwome.Font = Enum.Font.FredokaOne
-chwome.PlaceholderColor3 = Color3.fromRGB(43, 75, 255)
-chwome.Text = "chwome#8144 - scripts, ui, pretty much everything"
-chwome.TextColor3 = Color3.fromRGB(43, 75, 255)
-chwome.TextScaled = true
-chwome.TextSize = 14.000
-chwome.TextWrapped = true
+chwome_2.Name = "chwome"
+chwome_2.Parent = keyframe
+chwome_2.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+chwome_2.BorderSizePixel = 0
+chwome_2.Position = UDim2.new(0.0484848469, 0, 0.0522388071, 0)
+chwome_2.Size = UDim2.new(0, 148, 0, 29)
+chwome_2.Visible = false
+chwome_2.ClearTextOnFocus = false
+chwome_2.Font = Enum.Font.FredokaOne
+chwome_2.PlaceholderColor3 = Color3.fromRGB(43, 75, 255)
+chwome_2.Text = "chwome#8144 - scripts, ui, pretty much everything"
+chwome_2.TextColor3 = Color3.fromRGB(43, 75, 255)
+chwome_2.TextScaled = true
+chwome_2.TextSize = 14.000
+chwome_2.TextWrapped = true
 
-nearepick.Name = "nearepick"
-nearepick.Parent = keyframe
-nearepick.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
-nearepick.BorderSizePixel = 0
-nearepick.Position = UDim2.new(0.0484848469, 0, 0.268656731, 0)
-nearepick.Size = UDim2.new(0, 148, 0, 35)
-nearepick.Visible = false
-nearepick.ClearTextOnFocus = false
-nearepick.Font = Enum.Font.FredokaOne
-nearepick.PlaceholderColor3 = Color3.fromRGB(43, 75, 255)
-nearepick.Text = "nearepick#1800 - ui partially, scripts partially, and the discord"
-nearepick.TextColor3 = Color3.fromRGB(43, 75, 255)
-nearepick.TextScaled = true
-nearepick.TextSize = 14.000
-nearepick.TextWrapped = true
+nearepick_2.Name = "nearepick"
+nearepick_2.Parent = keyframe
+nearepick_2.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+nearepick_2.BorderSizePixel = 0
+nearepick_2.Position = UDim2.new(0.0484848469, 0, 0.268656731, 0)
+nearepick_2.Size = UDim2.new(0, 148, 0, 35)
+nearepick_2.Visible = false
+nearepick_2.ClearTextOnFocus = false
+nearepick_2.Font = Enum.Font.FredokaOne
+nearepick_2.PlaceholderColor3 = Color3.fromRGB(43, 75, 255)
+nearepick_2.Text = "nearepick#1800 - ui partially, scripts partially, and the discord"
+nearepick_2.TextColor3 = Color3.fromRGB(43, 75, 255)
+nearepick_2.TextScaled = true
+nearepick_2.TextSize = 14.000
+nearepick_2.TextWrapped = true
 
 TextButton_36.Parent = keyframe
 TextButton_36.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
@@ -1071,12 +1207,12 @@ notneededloadingscreen.Position = UDim2.new(0.380774975, 0, 0.280000001, 0)
 notneededloadingscreen.Size = UDim2.new(0, 319, 0, 362)
 notneededloadingscreen.Visible = false
 
-Frame_13.Parent = notneededloadingscreen
-Frame_13.BackgroundColor3 = Color3.fromRGB(13, 175, 207)
-Frame_13.Position = UDim2.new(0.103576854, 0, 0.599852681, 0)
-Frame_13.Size = UDim2.new(0, 258, 0, 30)
+Frame_14.Parent = notneededloadingscreen
+Frame_14.BackgroundColor3 = Color3.fromRGB(13, 175, 207)
+Frame_14.Position = UDim2.new(0.103576854, 0, 0.599852681, 0)
+Frame_14.Size = UDim2.new(0, 258, 0, 30)
 
-UICorner_60.Parent = Frame_13
+UICorner_60.Parent = Frame_14
 
 half.Name = "half"
 half.Parent = notneededloadingscreen
@@ -1105,25 +1241,25 @@ toquarters.ZIndex = 2
 
 UICorner_63.Parent = toquarters
 
-Frame_14.Parent = notneededloadingscreen
-Frame_14.BackgroundColor3 = Color3.fromRGB(129, 39, 255)
-Frame_14.Position = UDim2.new(-0.0250783693, 0, -0.0220994484, 0)
-Frame_14.Size = UDim2.new(0, 335, 0, 378)
-Frame_14.ZIndex = 0
+Frame_15.Parent = notneededloadingscreen
+Frame_15.BackgroundColor3 = Color3.fromRGB(129, 39, 255)
+Frame_15.Position = UDim2.new(-0.0250783693, 0, -0.0220994484, 0)
+Frame_15.Size = UDim2.new(0, 335, 0, 378)
+Frame_15.ZIndex = 0
 
-UICorner_64.Parent = Frame_14
+UICorner_64.Parent = Frame_15
 
-TextLabel_5.Parent = notneededloadingscreen
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
-TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0.078369908, 0, 0.209944755, 0)
-TextLabel_5.Size = UDim2.new(0, 267, 0, 69)
-TextLabel_5.Font = Enum.Font.FredokaOne
-TextLabel_5.Text = "Loading Scripts...."
-TextLabel_5.TextColor3 = Color3.fromRGB(43, 75, 255)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 14.000
-TextLabel_5.TextWrapped = true
+TextLabel_10.Parent = notneededloadingscreen
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.078369908, 0, 0.209944755, 0)
+TextLabel_10.Size = UDim2.new(0, 267, 0, 69)
+TextLabel_10.Font = Enum.Font.FredokaOne
+TextLabel_10.Text = "Loading Scripts...."
+TextLabel_10.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
 
 percent.Name = "percent"
 percent.Parent = notneededloadingscreen
@@ -1138,16 +1274,16 @@ percent.TextScaled = true
 percent.TextSize = 14.000
 percent.TextWrapped = true
 
-TextLabel_6.Parent = notneededloadingscreen
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(9, 149, 144)
-TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Size = UDim2.new(0, 319, 0, 37)
-TextLabel_6.Font = Enum.Font.FredokaOne
-TextLabel_6.Text = "Blue Z"
-TextLabel_6.TextColor3 = Color3.fromRGB(43, 75, 255)
-TextLabel_6.TextScaled = true
-TextLabel_6.TextSize = 14.000
-TextLabel_6.TextWrapped = true
+TextLabel_11.Parent = notneededloadingscreen
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(9, 149, 144)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Size = UDim2.new(0, 319, 0, 37)
+TextLabel_11.Font = Enum.Font.FredokaOne
+TextLabel_11.Text = "Blue Z"
+TextLabel_11.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
 
 full.Name = "full"
 full.Parent = notneededloadingscreen
@@ -1160,7 +1296,7 @@ UICorner_65.Parent = full
 
 -- Scripts:
 
-local function CPBFKX_fake_script() -- Frame.LocalScript 
+local function RAXGECJ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Visible = false
@@ -1168,8 +1304,20 @@ local function CPBFKX_fake_script() -- Frame.LocalScript
 	script.Parent.Selectable = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(CPBFKX_fake_script)()
-local function QRCTJ_fake_script() -- SpawnItems.LocalScript 
+coroutine.wrap(RAXGECJ_fake_script)()
+local function FAXXCN_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.PlayersTab.Visible = false
+		script.Parent.Parent.Parent.TeleportsTab.Visible = false
+		script.Parent.Parent.Parent.BiomesTab.Visible = false
+		script.Parent.Parent.Parent.Frame.Visible = false
+		script.Parent.Parent.Parent.creds.Visible = true
+	end)
+end
+coroutine.wrap(FAXXCN_fake_script)()
+local function MDCG_fake_script() -- SpawnItems.LocalScript 
 	local script = Instance.new('LocalScript', SpawnItems)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1177,10 +1325,11 @@ local function QRCTJ_fake_script() -- SpawnItems.LocalScript
 		script.Parent.Parent.Parent.TeleportsTab.Visible = false
 		script.Parent.Parent.Parent.BiomesTab.Visible = false
 		script.Parent.Parent.Parent.Frame.Visible = true
+		script.Parent.Parent.Parent.creds.Visible = false
 	end)
 end
-coroutine.wrap(QRCTJ_fake_script)()
-local function YLZI_fake_script() -- Teleports.LocalScript 
+coroutine.wrap(MDCG_fake_script)()
+local function XOQP_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1188,10 +1337,11 @@ local function YLZI_fake_script() -- Teleports.LocalScript
 		script.Parent.Parent.Parent.TeleportsTab.Visible = true
 		script.Parent.Parent.Parent.BiomesTab.Visible = false
 		script.Parent.Parent.Parent.Frame.Visible = false
+		script.Parent.Parent.Parent.creds.Visible = false
 	end)
 end
-coroutine.wrap(YLZI_fake_script)()
-local function SWVATWZ_fake_script() -- Player.LocalScript 
+coroutine.wrap(XOQP_fake_script)()
+local function YILAPCI_fake_script() -- Player.LocalScript 
 	local script = Instance.new('LocalScript', Player)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1199,50 +1349,51 @@ local function SWVATWZ_fake_script() -- Player.LocalScript
 		script.Parent.Parent.Parent.TeleportsTab.Visible = false
 		script.Parent.Parent.Parent.BiomesTab.Visible = false
 		script.Parent.Parent.Parent.Frame.Visible = false
+		script.Parent.Parent.Parent.creds.Visible = false
 	end)
 end
-coroutine.wrap(SWVATWZ_fake_script)()
-local function RTPTZY_fake_script() -- Admin.LocalScript 
+coroutine.wrap(YILAPCI_fake_script)()
+local function QZDPY_fake_script() -- Admin.LocalScript 
 	local script = Instance.new('LocalScript', Admin)
 
 	script.Parent.Visible = false
-	if game.Players.LocalPlayer.Name == "jdm_fanboy20" then
+	if game.Players.LocalPlayer.UserI == "22722378" then
 		script.Parent.Visible = true
 	end
-	if game.Players.LocalPlayer.Name =="nearepick" then
+	if game.Players.LocalPlayer.UserId =="318945749" then
 		script.Parent.Visible = true
 	end
-	if game.Players.LocalPlayer.Name == "Ceasondz" then
+	if game.Players.LocalPlayer.UserId == "3525564066" then
 		script.Parent.Visible = true
 	end
 	script.Parent.MouseButton1Down:Connect(function()
-		if game.Players.LocalPlayer.Name == "jdm_fanboy20" then
+		if game.Players.LocalPlayer.UserId == "22722378" then
 			game.Players.LocalPlayer:Kick("Nigger")
 		end
-		if game.Players.LocalPlayer.Name =="nearepick" then
+		if game.Players.LocalPlayer.UserId =="318945749" then
 			game.Players.LocalPlayer:Kick("Nigger")
 		end
-		if game.Players.LocalPlayer.Name == "Ceasondz" then
+		if game.Players.LocalPlayer.UserId == "3525564066" then
 			game.Players.LocalPlayer:Kick("Nigger")
 		end
 	end)
 end
-coroutine.wrap(RTPTZY_fake_script)()
-local function PCWWS_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(QZDPY_fake_script)()
+local function AHMSKD_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	script.Parent.Text = game.Players.LocalPlayer.DisplayName
 end
-coroutine.wrap(PCWWS_fake_script)()
-local function OUOHOR_fake_script() -- X.LocalScript 
+coroutine.wrap(AHMSKD_fake_script)()
+local function VOTY_fake_script() -- X.LocalScript 
 	local script = Instance.new('LocalScript', X)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(OUOHOR_fake_script)()
-local function HPXU_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(VOTY_fake_script)()
+local function UGKRL_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1252,8 +1403,8 @@ local function HPXU_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HPXU_fake_script)()
-local function PKGM_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(UGKRL_fake_script)()
+local function ALLOL_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1263,8 +1414,8 @@ local function PKGM_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PKGM_fake_script)()
-local function FSHLF_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(ALLOL_fake_script)()
+local function BDTAQ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1274,8 +1425,8 @@ local function FSHLF_fake_script() -- TextButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FSHLF_fake_script)()
-local function RTEPHL_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(BDTAQ_fake_script)()
+local function BGAIYGU_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1285,8 +1436,8 @@ local function RTEPHL_fake_script() -- TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RTEPHL_fake_script)()
-local function NBFRAU_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(BGAIYGU_fake_script)()
+local function FLUNNVQ_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1296,8 +1447,8 @@ local function NBFRAU_fake_script() -- TextButton_5.LocalScript
 		game:GetService('Players').LocalPlayer.Character['Right Arm']:Destroy()
 	end)
 end
-coroutine.wrap(NBFRAU_fake_script)()
-local function CKFCO_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(FLUNNVQ_fake_script)()
+local function HTRYU_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1307,32 +1458,32 @@ local function CKFCO_fake_script() -- TextButton_6.LocalScript
 		game:GetService('Players').LocalPlayer.Character.RightArm:Destroy()
 	end)
 end
-coroutine.wrap(CKFCO_fake_script)()
-local function KIGNK_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(HTRYU_fake_script)()
+local function EOIPIQ_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
 	end)
 end
-coroutine.wrap(KIGNK_fake_script)()
-local function BPFOZA_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(EOIPIQ_fake_script)()
+local function NCZSSUK_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Head.Transparency = 1
 	end)
 end
-coroutine.wrap(BPFOZA_fake_script)()
-local function LAWOCL_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(NCZSSUK_fake_script)()
+local function YBQHD_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Vaaaxin/Scripts/main/Painttool.lua"))()
 	end)
 end
-coroutine.wrap(LAWOCL_fake_script)()
-local function WYFA_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(YBQHD_fake_script)()
+local function LPOL_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1342,72 +1493,72 @@ local function WYFA_fake_script() -- TextButton_10.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WYFA_fake_script)()
-local function XXRISC_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(LPOL_fake_script)()
+local function AXHU_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(268, 2, 67.4) wait(1)
 	end)
 end
-coroutine.wrap(XXRISC_fake_script)()
-local function OUJP_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(AXHU_fake_script)()
+local function GJXF_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(296.8, 2.79311, -99.0999) wait(1)
 	end)
 end
-coroutine.wrap(OUJP_fake_script)()
-local function ATDIK_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(GJXF_fake_script)()
+local function SQMKPHD_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(509.6, 9.59999, -1470.6) wait(1)
 	end)
 end
-coroutine.wrap(ATDIK_fake_script)()
-local function PZSX_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(SQMKPHD_fake_script)()
+local function UNEVF_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(491.6, 9.59999, -1707.6) wait(1)
 	end)
 end
-coroutine.wrap(PZSX_fake_script)()
-local function BXABV_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(UNEVF_fake_script)()
+local function ETGMF_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(261.142, 4.10084, -2541.2) wait(1)
 	end)
 end
-coroutine.wrap(BXABV_fake_script)()
-local function AADGX_fake_script() -- TextButton_16.LocalScript 
+coroutine.wrap(ETGMF_fake_script)()
+local function DHKHTIY_fake_script() -- TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_16)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4628.64, 3.90082, -768.88) wait(1)
 	end)
 end
-coroutine.wrap(AADGX_fake_script)()
-local function EHGX_fake_script() -- TextButton_17.LocalScript 
+coroutine.wrap(DHKHTIY_fake_script)()
+local function YJDRPXF_fake_script() -- TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_17)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6159.71, 132.239, -14.049) wait(1)
 	end)
 end
-coroutine.wrap(EHGX_fake_script)()
-local function GCOZVU_fake_script() -- TextButton_18.LocalScript 
+coroutine.wrap(YJDRPXF_fake_script)()
+local function ZWWWNB_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5238, -167.2, 740) wait(1)
 	end)
 end
-coroutine.wrap(GCOZVU_fake_script)()
-local function TZJOA_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(ZWWWNB_fake_script)()
+local function OINE_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1415,120 +1566,120 @@ local function TZJOA_fake_script() -- TextButton_19.LocalScript
 		script.Parent.Parent.Parent.Parent.BiomesTab.Visible = true
 	end)
 end
-coroutine.wrap(TZJOA_fake_script)()
-local function YVUWBY_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(OINE_fake_script)()
+local function XARURXW_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(868.510986, 27.4675598, -2434.31372, -0.964103103, 0, -0.265528053, 0, 1, 0, 0.265528053, 0, -0.964103103) wait(1)
 	end)
 end
-coroutine.wrap(YVUWBY_fake_script)()
-local function OILVAX_fake_script() -- TextButton_21.LocalScript 
+coroutine.wrap(XARURXW_fake_script)()
+local function AUQOQG_fake_script() -- TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_21)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(613.397644, 27.4675598, -2545.39819, -0.94777441, 0, 0.31894201, 0, 1, 0, -0.31894201, 0, -0.94777441) wait(1)
 	end)
 end
-coroutine.wrap(OILVAX_fake_script)()
-local function WXQVX_fake_script() -- TextButton_22.LocalScript 
+coroutine.wrap(AUQOQG_fake_script)()
+local function LUQAU_fake_script() -- TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_22)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2616.39941, -23.299984, -19.3997955, 0, 0, -1, 0, 1, 0, 1, 0, 0 ) wait(1)
 	end)
 end
-coroutine.wrap(WXQVX_fake_script)()
-local function RIASSXD_fake_script() -- TextButton_23.LocalScript 
+coroutine.wrap(LUQAU_fake_script)()
+local function DTYHGMP_fake_script() -- TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_23)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(163.599396, 47.300087, 1276.17053, 1, 0, 0, 0, 1, 0, 0, 0, 1 ) wait(1)
 	end)
 end
-coroutine.wrap(RIASSXD_fake_script)()
-local function RDIJB_fake_script() -- TextButton_24.LocalScript 
+coroutine.wrap(DTYHGMP_fake_script)()
+local function MOQLXY_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(613.397644, 27.4675598, -2545.39819, -0.94777441, 0, 0.31894201, 0, 1, 0, -0.31894201, 0, -0.94777441) wait(1)
 	end)
 end
-coroutine.wrap(RDIJB_fake_script)()
-local function QNIFFET_fake_script() -- TextButton_25.LocalScript 
+coroutine.wrap(MOQLXY_fake_script)()
+local function JUUJR_fake_script() -- TextButton_25.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_25)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-963.185547, 292.300537, 989.30957, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268 ) wait(1)
 	end)
 end
-coroutine.wrap(QNIFFET_fake_script)()
-local function EGML_fake_script() -- TextButton_26.LocalScript 
+coroutine.wrap(JUUJR_fake_script)()
+local function FOQQQ_fake_script() -- TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_26)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1000.69952, 56.2999573, 1805.00671, 0.965929627, 0, 0.258804798, 0, 1, 0, -0.258804798, 0, 0.965929627) wait(1)
 	end)
 end
-coroutine.wrap(EGML_fake_script)()
-local function JDLCD_fake_script() -- TextButton_27.LocalScript 
+coroutine.wrap(FOQQQ_fake_script)()
+local function IUFQDZ_fake_script() -- TextButton_27.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_27)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-395.431458, 8.09999847, -1612.65308, 0.258864343, -0, -0.965913713, 0, 1, -0, 0.965913713, 0, 0.258864343) wait(1)
 	end)
 end
-coroutine.wrap(JDLCD_fake_script)()
-local function NGHQC_fake_script() -- TextButton_28.LocalScript 
+coroutine.wrap(IUFQDZ_fake_script)()
+local function JUQMTV_fake_script() -- TextButton_28.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_28)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6664.56982, -7.1098175, -146.156647, 0.122816741, -0, -0.992429376, 0, 1, -0, 0.992429376, 0, 0.122816741) wait(1)
 	end)
 end
-coroutine.wrap(NGHQC_fake_script)()
-local function AWPW_fake_script() -- TextButton_29.LocalScript 
+coroutine.wrap(JUQMTV_fake_script)()
+local function IRBBTP_fake_script() -- TextButton_29.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_29)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1835.81348, 249.476547, 2971.00366, -0.249058485, 0, -0.968488693, 0, 1, 0, 0.968488693, 0, -0.249058485) wait(1)
 	end)
 end
-coroutine.wrap(AWPW_fake_script)()
-local function YHGXUAU_fake_script() -- TextButton_30.LocalScript 
+coroutine.wrap(IRBBTP_fake_script)()
+local function YZDW_fake_script() -- TextButton_30.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_30)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-33.5032806, -216.000107, -1362.46021, -1.47819519e-05, 0.222921818, -0.974836349, 1, 1.47819519e-05, -1.1742115e-05, 1.1742115e-05, -0.974836349, -0.222921848) wait(1)
 	end)
 end
-coroutine.wrap(YHGXUAU_fake_script)()
-local function GQUN_fake_script() -- TextButton_31.LocalScript 
+coroutine.wrap(YZDW_fake_script)()
+local function NBMDUY_fake_script() -- TextButton_31.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_31)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3382.40137, -239.200134, 458.000061, 1, 0, 0, 0, 1, 0, 0, 0, 1) wait(1)
 	end)
 end
-coroutine.wrap(GQUN_fake_script)()
-local function VYKKPOY_fake_script() -- TextButton_32.LocalScript 
+coroutine.wrap(NBMDUY_fake_script)()
+local function QBNYKL_fake_script() -- TextButton_32.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_32)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1613.58582, 619.900085, 1071.19751, 0.866007268, 0, 0.500031412, 0, 1, 0, -0.500031412, 0, 0.866007268 ) wait(1)
 	end)
 end
-coroutine.wrap(VYKKPOY_fake_script)()
-local function QHFVAZ_fake_script() -- TextButton_33.LocalScript 
+coroutine.wrap(QBNYKL_fake_script)()
+local function LNNURJJ_fake_script() -- TextButton_33.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_33)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4838.49365, -0.0992805734, -551.479126, -0.866007447, 0, -0.500031412, 0, 1, 0, 0.500031412, 0, -0.866007447) wait(1)
 	end)
 end
-coroutine.wrap(QHFVAZ_fake_script)()
-local function HELKF_fake_script() -- TextButton_34.LocalScript 
+coroutine.wrap(LNNURJJ_fake_script)()
+local function QKETR_fake_script() -- TextButton_34.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_34)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1663,12 +1814,12 @@ local function HELKF_fake_script() -- TextButton_34.LocalScript
 		print('IcicleWireMagenta')
 	end)
 end
-coroutine.wrap(HELKF_fake_script)()
-local function POOWFX_fake_script() -- TextButton_35.LocalScript 
+coroutine.wrap(QKETR_fake_script)()
+local function QSQFBY_fake_script() -- TextButton_35.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_35)
 
 	script.Parent.MouseButton1Down:Connect(function()
-	local Item = script.Parent.Parent.nam.Text
+		    local Item = script.Parent.Parent.nam.Text
 	local Quantity = script.Parent.Parent.quan.Text
 
 	local Land = nil
@@ -1702,8 +1853,8 @@ local function POOWFX_fake_script() -- TextButton_35.LocalScript
 		end
 	end)
 end
-coroutine.wrap(POOWFX_fake_script)()
-local function GOQOVYF_fake_script() -- check.LocalScript 
+coroutine.wrap(QSQFBY_fake_script)()
+local function RLGIM_fake_script() -- check.LocalScript 
 	local script = Instance.new('LocalScript', check)
 
 	script.Parent.Parent.TextBox.Text = "Enter Key"
@@ -1715,24 +1866,24 @@ local function GOQOVYF_fake_script() -- check.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GOQOVYF_fake_script)()
-local function OCSRB_fake_script() -- keyframe.LocalScript 
+coroutine.wrap(RLGIM_fake_script)()
+local function VLLNT_fake_script() -- keyframe.LocalScript 
 	local script = Instance.new('LocalScript', keyframe)
 
 	script.Parent.Active = true
 	script.Parent.Selectable = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(OCSRB_fake_script)()
-local function XIVWUB_fake_script() -- discord.LocalScript 
+coroutine.wrap(VLLNT_fake_script)()
+local function WXYOQO_fake_script() -- discord.LocalScript 
 	local script = Instance.new('LocalScript', discord)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		setclipboard('paste discord link in here nearepick')  
 	end)
 end
-coroutine.wrap(XIVWUB_fake_script)()
-local function ATJAYLG_fake_script() -- credits.LocalScript 
+coroutine.wrap(WXYOQO_fake_script)()
+local function PBZNW_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 
 	local ch = script.Parent.Parent.check
@@ -1753,8 +1904,8 @@ local function ATJAYLG_fake_script() -- credits.LocalScript
 		script.Parent.Parent.TextButton.Visible = true
 	end)
 end
-coroutine.wrap(ATJAYLG_fake_script)()
-local function SVRW_fake_script() -- TextButton_36.LocalScript 
+coroutine.wrap(PBZNW_fake_script)()
+local function PRVZ_fake_script() -- TextButton_36.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_36)
 
 	local ch = script.Parent.Parent.check
@@ -1775,8 +1926,8 @@ local function SVRW_fake_script() -- TextButton_36.LocalScript
 		script.Parent.Parent.TextButton.Visible = false
 	end)
 end
-coroutine.wrap(SVRW_fake_script)()
-local function UBLEIN_fake_script() -- quarter.LocalScript 
+coroutine.wrap(PRVZ_fake_script)()
+local function ZFST_fake_script() -- quarter.LocalScript 
 	local script = Instance.new('LocalScript', quarter)
 
 	script.Parent.Visible = true
@@ -1820,21 +1971,21 @@ local function UBLEIN_fake_script() -- quarter.LocalScript
 	wait()
 	
 end
-coroutine.wrap(UBLEIN_fake_script)()
-local function WMQCDQQ_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(ZFST_fake_script)()
+local function XKSC_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
-	if game.Players.LocalPlayer.Name == "jdm_fanboy20" then
+	if game.Players.LocalPlayer.UserI == "3525564066" then
 		script.Parent.keyframe.Visible = false
 		script.Parent.notneededloadingscreen.Visible = true
 	end
-	if game.Players.LocalPlayer.Name == "nearepick" then
+	if game.Players.LocalPlayer.UserId == "318945749" then
 		script.Parent.keyframe.Visible = false
 		script.Parent.notneededloadingscreen.Visible = true
 	end
-	if game.Players.LocalPlayer.Name == "Ceasondz" then
+	if game.Players.LocalPlayer.UserId == "22722378" then
 		script.Parent.keyframe.Visible = false
 		script.Parent.notneededloadingscreen.Visible = true
 	end
 end
-coroutine.wrap(WMQCDQQ_fake_script)()
+coroutine.wrap(XKSC_fake_script)()
