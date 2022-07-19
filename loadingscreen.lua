@@ -121,7 +121,7 @@ UICorner_6.Parent = full
 
 -- Scripts:
 
-local function NDRBUQV_fake_script() -- quarter.LocalScript 
+local function BVNHTA_fake_script() -- quarter.LocalScript 
 	local script = Instance.new('LocalScript', quarter)
 
 	script.Parent.Visible = true
@@ -165,4 +165,4 @@ local function NDRBUQV_fake_script() -- quarter.LocalScript
 	wait()
 	
 end
-coroutine.wrap(NDRBUQV_fake_script)()
+coroutine.wrap(BVNHTA_fake_script)()
