@@ -905,7 +905,7 @@ local function WMHKKW_fake_script() -- Admin.LocalScript
 	local script = Instance.new('LocalScript', Admin)
 
 	script.Parent.Visible = false
-	if game.Players.LocalPlayer.UserI == "22722378" then
+	if game.Players.LocalPlayer.UserId == "22722378" then
 		script.Parent.Visible = true
 	end
 	if game.Players.LocalPlayer.UserId =="318945749" then
