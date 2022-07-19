@@ -167,7 +167,7 @@ local function QWKF_fake_script() -- check.LocalScript
 	script.Parent.MouseButton1Down:Connect(function()
 		if script.Parent.Parent.TextBox.Text == "howtousectrlc+ctrlv" then do
 				script.Parent.Parent.Visible = false
-				script.Parent.Parent.Parent.notneededloadingscreen.Visible = true
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/keyframe.lua"))()
 			end
 		end
 	end)
@@ -185,7 +185,7 @@ local function SGROS_fake_script() -- discord.LocalScript
 	local script = Instance.new('LocalScript', discord)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		setclipboard('paste discord link in here nearepick')  
+		setclipboard('https://discord.gg/45nKcrAsHx')  
 	end)
 end
 coroutine.wrap(SGROS_fake_script)()
