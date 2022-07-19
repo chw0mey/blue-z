@@ -196,7 +196,7 @@ local function RXEAUFK_fake_script() -- credits.LocalScript
 		script.Parent.Parent.check.Visible = false
 		script.Parent.Parent.discord.Visible = false
 		script.Parent.Parent.TextBox.Visible = false
-		script.Parent.Parent.credit.Visible = false
+		script.Parent.Parent.credits.Visible = false
 		script.Parent.Parent.chwome.Visible = true
 		script.Parent.Parent.nearepick.Visible = true
 		script.Parent.Parent.lispuwu.Visible = true
