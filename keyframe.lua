@@ -167,7 +167,7 @@ local function QWKF_fake_script() -- check.LocalScript
 	script.Parent.MouseButton1Down:Connect(function()
 		if script.Parent.Parent.TextBox.Text == "howtousectrlc+ctrlv" then do
 				script.Parent.Parent.Visible = false
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/keyframe.lua"))()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua"))()
 			end
 		end
 	end)
@@ -224,15 +224,15 @@ local function OQGRK_fake_script() -- ScreenGui.LocalScript
 
 	if game.Players.LocalPlayer.UserId == "3525564066" then
 		script.Parent.keyframe.Visible = false
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/keyframe.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua"))()
 	end
 	if game.Players.LocalPlayer.UserId == "318945749" then
 		script.Parent.keyframe.Visible = false
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/keyframe.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua"))()
 	end
 	if game.Players.LocalPlayer.UserId == "22722378" then
 		script.Parent.keyframe.Visible = false
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/keyframe.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua"))()
 	end
 end
 coroutine.wrap(OQGRK_fake_script)()
