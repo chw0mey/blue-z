@@ -222,7 +222,7 @@ coroutine.wrap(OVRJ_fake_script)()
 local function OQGRK_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
-	if game.Players.LocalPlayer.UserI == "3525564066" then
+	if game.Players.LocalPlayer.UserId == "3525564066" then
 		script.Parent.keyframe.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/keyframe.lua"))()
 	end
