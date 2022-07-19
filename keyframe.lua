@@ -211,7 +211,7 @@ local function OVRJ_fake_script() -- TextButton.LocalScript
 		script.Parent.Parent.check.Visible = true
 		script.Parent.Parent.discord.Visible = true
 		script.Parent.Parent.TextBox.Visible = true
-		script.Parent.Parent.credit.Visible = true
+		script.Parent.Parent.credits.Visible = true
 		script.Parent.Parent.chwome.Visible = false
 		script.Parent.Parent.nearepick.Visible = false
 		script.Parent.Parent.lispuwu.Visible = false
