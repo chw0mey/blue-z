@@ -160,80 +160,78 @@ lispuwu.TextWrapped = true
 
 -- Scripts:
 
-local function QWKF_fake_script() -- check.LocalScript 
+local function OEVFI_fake_script() -- check.LocalScript 
 	local script = Instance.new('LocalScript', check)
 
 	script.Parent.Parent.TextBox.Text = "Enter Key"
 	script.Parent.MouseButton1Down:Connect(function()
-		if script.Parent.Parent.TextBox.Text == "howtousectrlc+ctrlv" then do
-				script.Parent.Parent.Visible = false
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua"))()
-			end
+		if script.Parent.Parent.TextBox.Text == 'sex' then 
+			script.Parent.Parent.Visible = false
+			loadstring(game:HtppGet('https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua'))
 		end
 	end)
 end
-coroutine.wrap(QWKF_fake_script)()
-local function SSLU_fake_script() -- keyframe.LocalScript 
+coroutine.wrap(OEVFI_fake_script)()
+local function IIGNN_fake_script() -- keyframe.LocalScript 
 	local script = Instance.new('LocalScript', keyframe)
 
 	script.Parent.Active = true
 	script.Parent.Selectable = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(SSLU_fake_script)()
-local function SGROS_fake_script() -- discord.LocalScript 
+coroutine.wrap(IIGNN_fake_script)()
+local function YZJUE_fake_script() -- discord.LocalScript 
 	local script = Instance.new('LocalScript', discord)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		setclipboard('https://discord.gg/45nKcrAsHx')  
+		setclipboard('paste discord link in here nearepick')  
 	end)
 end
-coroutine.wrap(SGROS_fake_script)()
-local function RXEAUFK_fake_script() -- credits.LocalScript 
+coroutine.wrap(YZJUE_fake_script)()
+local function AIKNWZG_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.check.Visible = false
 		script.Parent.Parent.discord.Visible = false
 		script.Parent.Parent.TextBox.Visible = false
-		script.Parent.Parent.credits.Visible = false
+		script.Parent.Parent.credit.Visible = false
 		script.Parent.Parent.chwome.Visible = true
 		script.Parent.Parent.nearepick.Visible = true
 		script.Parent.Parent.lispuwu.Visible = true
 		script.Parent.Parent.TextButton.Visible = true
 	end)
 end
-coroutine.wrap(RXEAUFK_fake_script)()
-local function OVRJ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(AIKNWZG_fake_script)()
+local function WWRO_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.check.Visible = true
 		script.Parent.Parent.discord.Visible = true
 		script.Parent.Parent.TextBox.Visible = true
-		script.Parent.Parent.credits.Visible = true
+		script.Parent.Parent.credit.Visible = true
 		script.Parent.Parent.chwome.Visible = false
 		script.Parent.Parent.nearepick.Visible = false
 		script.Parent.Parent.lispuwu.Visible = false
 		script.Parent.Parent.TextButton.Visible = false
 	end)
 end
-coroutine.wrap(OVRJ_fake_script)()
-local function OQGRK_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(WWRO_fake_script)()
+local function UMZP_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
-	if game.Players.LocalPlayer.UserId == "3525564066" then
+	if game.Players.LocalPlayer.Name == "nearepick" then
 		script.Parent.keyframe.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua"))()
 	end
-	if game.Players.LocalPlayer.UserId == "318945749" then
+	if game.Players.LocalPlayer.Name == "jdm_fanboy20" then
 		script.Parent.keyframe.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua"))()
 	end
-	if game.Players.LocalPlayer.UserId == "22722378" then
+	if game.Players.LocalPlayer.Name == "Ceasondz" then
 		script.Parent.keyframe.Visible = false
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua"))()
 	end
 end
-coroutine.wrap(OQGRK_fake_script)()
-
+coroutine.wrap(UMZP_fake_script)()
