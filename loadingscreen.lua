@@ -121,7 +121,7 @@ UICorner_6.Parent = full
 
 -- Scripts:
 
-local function BVNHTA_fake_script() -- quarter.LocalScript 
+local function FNNRS_fake_script() -- quarter.LocalScript 
 	local script = Instance.new('LocalScript', quarter)
 
 	script.Parent.Visible = true
@@ -130,39 +130,30 @@ local function BVNHTA_fake_script() -- quarter.LocalScript
 	script.Parent.Parent.full.Visible = false
 	script.Parent.Parent.TextLabel.Text = "Loading Scripts...."
 	script.Parent.Parent.percent.Text = "25%"
-	wait()
-	repeat
-	wait()
-		if script.Parent.Parent.Visible == true then
-			repeat
-				script.Parent.Visible = true
-				script.Parent.Parent.half.Visible = false
-				script.Parent.Parent.toquarters.Visible = false
-				script.Parent.Parent.full.Visible = false
-				script.Parent.Parent.TextLabel.Text = "Loading Scripts...."
-				script.Parent.Parent.percent.Text = "25%"
-				wait(2)
-				script.Parent.Visible = false
-				script.Parent.Parent.half.Visible = true
-				script.Parent.Parent.TextLabel.Text = "Loading UI...."
-				script.Parent.Parent.percent.Text = "50%"
-				wait(3)
-				script.Parent.Parent.half.Visible = false
-				script.Parent.Parent.toquarters.Visible = true
-				script.Parent.Parent.TextLabel.Text = "Loading Buttons...."
-				script.Parent.Parent.percent.Text = "75%"
-				wait(4)
-				script.Parent.Parent.toquarters.Visible = false
-				script.Parent.Parent.full.Visible = true
-				script.Parent.Parent.TextLabel.Text = "Finishing up...."
-				script.Parent.Parent.percent.Text = "100%"
-				wait(5)
-				script.Parent.Parent.Visible = false
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/main.lua"))()
-			until(script.Parent.Parent.Visible == false)
-		end
-	until(script.Parent.Parent.Visible == true)
-	wait()
+	script.Parent.Visible = true
+	script.Parent.Parent.half.Visible = false
+	script.Parent.Parent.toquarters.Visible = false
+	script.Parent.Parent.full.Visible = false
+	script.Parent.Parent.TextLabel.Text = "Loading Scripts...."
+	script.Parent.Parent.percent.Text = "25%"
+	wait(2)
+	script.Parent.Visible = false
+	script.Parent.Parent.half.Visible = true
+	script.Parent.Parent.TextLabel.Text = "Loading UI...."
+	script.Parent.Parent.percent.Text = "50%"
+	wait(3)
+	script.Parent.Parent.half.Visible = false
+	script.Parent.Parent.toquarters.Visible = true
+	script.Parent.Parent.TextLabel.Text = "Loading Buttons...."
+	script.Parent.Parent.percent.Text = "75%"
+	wait(4)
+	script.Parent.Parent.toquarters.Visible = false
+	script.Parent.Parent.full.Visible = true
+	script.Parent.Parent.TextLabel.Text = "Finishing up...."
+	script.Parent.Parent.percent.Text = "100%"
+	wait(5)
+	script.Parent.Parent.Visible = false
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/main.lua"))()
 	
 end
-coroutine.wrap(BVNHTA_fake_script)()
+coroutine.wrap(FNNRS_fake_script)()
