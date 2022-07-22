@@ -33,7 +33,7 @@ notneededloadingscreen.Position = UDim2.new(0.380774975, 0, 0.280000001, 0)
 notneededloadingscreen.Size = UDim2.new(0, 319, 0, 362)
 
 Frame.Parent = notneededloadingscreen
-Frame.BackgroundColor3 = Color3.fromRGB(13, 175, 207)
+Frame.BackgroundColor3 = Color3.fromRGB(6, 34, 35)
 Frame.Position = UDim2.new(0.103576854, 0, 0.599852681, 0)
 Frame.Size = UDim2.new(0, 258, 0, 30)
 
