@@ -27,7 +27,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 notneededloadingscreen.Name = "notneededloadingscreen"
 notneededloadingscreen.Parent = ScreenGui
-notneededloadingscreen.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+notneededloadingscreen.BackgroundColor3 = Color3.fromRGB(6, 34, 35)
 notneededloadingscreen.BorderSizePixel = 0
 notneededloadingscreen.Position = UDim2.new(0.380774975, 0, 0.280000001, 0)
 notneededloadingscreen.Size = UDim2.new(0, 319, 0, 362)
@@ -67,7 +67,7 @@ toquarters.ZIndex = 2
 UICorner_4.Parent = toquarters
 
 Frame_2.Parent = notneededloadingscreen
-Frame_2.BackgroundColor3 = Color3.fromRGB(129, 39, 255)
+Frame_2.BackgroundColor3 = Color3.fromRGB(59, 115, 132)
 Frame_2.Position = UDim2.new(-0.0250783693, 0, -0.0220994484, 0)
 Frame_2.Size = UDim2.new(0, 335, 0, 378)
 Frame_2.ZIndex = 0
@@ -75,37 +75,37 @@ Frame_2.ZIndex = 0
 UICorner_5.Parent = Frame_2
 
 TextLabel.Parent = notneededloadingscreen
-TextLabel.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+TextLabel.BackgroundColor3 = Color3.fromRGB(6, 34, 35)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.078369908, 0, 0.209944755, 0)
 TextLabel.Size = UDim2.new(0, 267, 0, 69)
 TextLabel.Font = Enum.Font.FredokaOne
 TextLabel.Text = "Loading Scripts...."
-TextLabel.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel.TextColor3 = Color3.fromRGB(99, 182, 177)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
 percent.Name = "percent"
 percent.Parent = notneededloadingscreen
-percent.BackgroundColor3 = Color3.fromRGB(13, 207, 201)
+percent.BackgroundColor3 = Color3.fromRGB(6, 34, 35)
 percent.BorderSizePixel = 0
 percent.Position = UDim2.new(0.313479632, 0, 0.754143655, 0)
 percent.Size = UDim2.new(0, 120, 0, 44)
 percent.Font = Enum.Font.FredokaOne
 percent.Text = "25%"
-percent.TextColor3 = Color3.fromRGB(43, 75, 255)
+percent.TextColor3 = Color3.fromRGB(99, 182, 177)
 percent.TextScaled = true
 percent.TextSize = 14.000
 percent.TextWrapped = true
 
 TextLabel_2.Parent = notneededloadingscreen
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(9, 149, 144)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(14, 50, 50)
 TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Size = UDim2.new(0, 319, 0, 37)
 TextLabel_2.Font = Enum.Font.FredokaOne
 TextLabel_2.Text = "Blue Z"
-TextLabel_2.TextColor3 = Color3.fromRGB(43, 75, 255)
+TextLabel_2.TextColor3 = Color3.fromRGB(99, 182, 177)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
@@ -121,7 +121,7 @@ UICorner_6.Parent = full
 
 -- Scripts:
 
-local function FNNRS_fake_script() -- quarter.LocalScript 
+local function MBXWA_fake_script() -- quarter.LocalScript 
 	local script = Instance.new('LocalScript', quarter)
 
 	script.Parent.Visible = true
@@ -156,4 +156,4 @@ local function FNNRS_fake_script() -- quarter.LocalScript
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/chw0mey/blue-z/main/main.lua"))()
 	
 end
-coroutine.wrap(FNNRS_fake_script)()
+coroutine.wrap(MBXWA_fake_script)()
