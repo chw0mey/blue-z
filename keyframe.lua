@@ -184,7 +184,7 @@ local function SZWAWEB_fake_script() -- check.LocalScript
 	script.Parent.MouseButton1Down:Connect(function()
 		if script.Parent.Parent.TextBox.Text == 'sex' then 
 			script.Parent.Parent.Visible = false
-			loadstring(game:HtppGet('https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua'))
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/chw0mey/blue-z/main/loadingscreen.lua'))
 		end
 	end)
 end
